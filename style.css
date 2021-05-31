@@ -1,0 +1,23 @@
+#inp1{
+    width: 5.5cm;
+    margin-right: 10px;
+}
+#spn1{
+    align-content: space-around;
+}
+body{
+    background: linear-gradient(#ff0000 0%, #3366ff 50%, #ffcc66 100%);
+    
+}
+#inp1{
+    background: #ffcc66;
+}
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease; 
+    text-indent: -100%;
+	opacity: 1;
+	color: white;
+}
+#inp2{
+    background: pink;
+}

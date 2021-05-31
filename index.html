@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="Main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Guest List</title>
+</head>
+<body>
+    <center>
+    <h1>Guest List</h1>
+
+    <span id="spn1">
+    <input type="text" id="inp1" placeholder="Enter the name of the guest">
+    <button id="submit_btn" onclick="submit()">Submit</button>
+    </span>
+
+    <br>
+    <br>
+    <br>
+    <hr id="hr1">
+    <label id="lbl_name"></label>
+    <br>
+    <hr id="hr2">
+
+        <h2>Guest Names</h2>
+        <button onclick="show()">Show</button>
+        <div>
+        <label id="showednames"></label>
+        </div>
+        <hr>
+
+
+            <button onclick="sorting()" id="btn_sort">Sort List</button>
+            <div>
+            <label id="sorted_names"></label> 
+            </div>
+
+
+
+             <hr>
+
+
+
+             <span>
+             <input type="text" placeholder="Search" id="inp2" >
+             <button id="btn_serach" onclick="searching()">Search</button>
+            </span>  
+            <div><label id="searched_ans"></label></div>
+            
+
+    </center>
+    
+    
+    
+
+
+
+</body>
+</html>
